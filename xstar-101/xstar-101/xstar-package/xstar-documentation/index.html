@@ -1,0 +1,668 @@
+<!doctype html>  
+<!--[if IE 6 ]>
+<html lang="en-us" class="ie6">
+   <![endif]-->
+   <!--[if IE 7 ]>
+   <html lang="en-us" class="ie7">
+      <![endif]-->
+      <!--[if IE 8 ]>
+      <html lang="en-us" class="ie8">
+         <![endif]-->
+         <!--[if (gt IE 7)|!(IE)]><!-->
+         <html lang="en-us">
+            <!--<![endif]-->
+            <head>
+               <meta charset="utf-8">
+               <title>How to installer and config WordPres Theme - Themesflat</title>
+               <meta name="description" content="">
+               <meta name="author" content="themesflat">
+               <meta name="copyright" content="themesflat">
+               <meta name="generator" content= "Documenter v2.0 http://rxa.li/documenter">
+               <meta name="date" content="2017-04-29T00:00:00+01:00">
+               <link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+               <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+               <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
+               <script src="assets/js/jquery.js"></script>
+               <script src="assets/js/jquery.scrollTo.js"></script>
+               <script src="assets/js/jquery.easing.js"></script>
+               <script>document.createElement('section');var duration='500',easing='swing';</script>
+               <script src="assets/js/script.js"></script>
+              
+            </head>
+            <body class="documenter-project">
+
+               <div id="documenter_sidebar">
+                  <a href="#documenter_cover" id="documenter_logo">Documentation Guide</a>
+                  <ul id="documenter_nav">
+                    <li><a class="current" href="#documenter_cover">Introduction</a></li>
+                    <li><a class="getting_started" href="#getting_started">Getting Started</a></li>
+                    <li><a class="getting" href="#theme_installation">Installation</a></li>
+                    <li><a class="theme_customize" href="#theme_customize">Theme Customize</a>
+                        <ul>
+                            <li><a href="#theme_customize" title="Theme Customize">General</a></li>
+                            <li><a href="#header_customize" title="Theme Customize">Header</a></li>
+                            <li><a href="#page_title_customize" title="Theme Customize">Page Title</a></li>
+                            <li><a href="#typography_customizer" title="Theme Customize">Typography</a></li>
+                            <li><a href="#theme_customization_layout_amp_styles" title="Theme Customize">Layout & Color</a></li>
+                            <li><a href="#footer_customize" title="Theme Customize">Footer</a></li>
+                        </ul>
+
+                    </li>
+                    <li><a href="#theme_customize_blog" title="Blog Posts">Blog Posts</a></li>
+                    <li><a href="#portfolio" title="portfolio">Post Type</a></li>
+                    <li><a href="#themesflat-addons" title="themesflat-addons">Themesflat Addons</a></li>
+                  </ul>
+                  
+               </div>
+               <div id="documenter_content">
+                    <header>
+                        <div class="item-name">
+                            Xstar - Creative Agency & Portfolio WordPress Theme
+                        </div>
+                        <div class="wrap-btn">
+                            <a class="btn" href="https://1.envato.market/3NM2k">Unlimited Downloads</a>
+                            <a class="btn" href="https://themeforest.net/user/themesflat/portfolio">Buy Now</a>
+                        </div>
+
+                    </header>
+                    <section id="documenter_cover">
+                     <h2>Introduction</h2>
+                     <p>First of all, Themes Flat thank you for choosing to buy our theme!</p>
+
+                     <p>In this document, we provide all kinds of good information with all the details you need to use our theme. It is recommended you read it thoroughly to fully leverage the Finatex theme's capabilities. Please also make sure to check out our Video Tutorials as they explain everything covered in here in greater depth. ​We hope you have fun and enjoy working with our theme!</p>
+                     <ul>
+                        <li><strong>Theme version:</strong> 1.0.0</li>
+                        <li><strong>Created date:</strong> May 29, 2024</li>
+                        <li><strong>Update date:</strong> May 29, 2024</li>
+                        <li><strong>Author:</strong> <a href="https://themeforest.net/user/themesflat/portfolio">Themesflat</a></li>
+                     </ul>
+                     
+                     If you have any question contact us by <br>
+                     <strong>Email: </strong><a href="mailto:helpdeskthemesflat@gmail.com">helpdeskthemesflat@gmail.com</a>
+                     <br><strong> Skype id: </strong> helpdeskthemesflat<br>
+                     <strong>Create ticket id : </strong><a href="https://themesflat.ticksy.com/ticket"> https://themesflat.ticksy.com/ticket</a>
+                    
+                    </section>
+
+                    <!-- Started -->
+                    <section id="getting_started">
+                        <div class="page-header"><h3>Getting Started</h3></div>
+                        <h4 id="getting_started_requirements">Requirements</h4>
+                        <div>
+                            There are minimal requirements to run this product:</div>
+                        <ul>
+                            <li>
+                                PHP 8.0 or higher</li>  
+                        </ul>
+                        <h4 id="getting_started_recommended">Recommended</h4>
+                        <p>
+                            Required must have</p>   
+                        <ul>
+                            <li>upload_max_filesize = 128M</li>
+                            <li>post_max_size = 164M</li>
+                            <li>max_execution_time = 300</li>
+                            <li>max_input_time = 300</li>
+                            <li>memory_limit = 256M</li>
+                        </ul>
+                        <p>
+                            Besides, need more</p>   
+                        <ul>
+                            <li>Elementor</li>
+                            <li>Contact Form 7</li>
+                            <li>Wiatech Addons</li>
+                            <li>Themesflat Addons For Elementor</li>
+                            <li>Slider Revolution</li>
+                            <li>One Click Demo Import</li>
+                            <li>MC4WP: Mailchimp for WordPress</li>                            
+                        </ul>
+                    </section>
+
+
+                    <!-- Install Themes by Themesflat -->
+                    <section id="theme_installation">
+                        <div class="page-header"><h3>Theme Installation via WordPress</h3></div>
+                        <p>
+                        After purchase and download we have file <strong>themename.zip</strong>
+                        Continue we need Extract Files i have 3 files: 1.theme, 2.theme-child, 3.documentation
+                        </p>
+                            <p>Please, follow the steps below to install Theme.</p>
+                            <h6>Watch the video One Click Install Demo </h6>
+                            <div>  
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/7yOMjjHiUjs" title="How To Import Xstar Creative Agency Portfolio WordPRess Theme" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>                         
+
+                        <h4 id="theme_installation_install_by_WordPress_theme_manager">Install by WordPress Theme Manager</h4>
+                        <p>
+                            This is probably the simplest way for most users. Here are steps you need to take:</p>
+                        <ol>
+                            <li>
+                                <strong>Step 1</strong> - Login to your WordPress Dashboard.</li>
+                                <p><img src="assets/images/login-admin.jpg" style="max-width: 80%"></p>
+                            <li>
+                                <strong>Step 2</strong> - Go to <strong>Appearance > Themes</strong>. And then click <strong>Add new </strong>button, located at the top of the screen or Add new theme (see screenshots below).</li>
+                                <p><img src="assets/images/addnew-button-theme.png" style="max-width: 80%"></p>
+                            <li><strong>Step 3</strong> - Click on <strong>Upload</strong> button at the top of the screen.</li>
+                                <p><img src="assets/images/upload-button-theme.jpg" style="max-width: 80%"></p>
+                            <li>
+                                <strong>Step 4</strong> - Next, Click Choose File button to browse themename.zip file in locate.</li>
+                              <p><img alt="" src="assets/images/choose-theme.jpg" style="max-width: 80%;"></p>
+
+                            <li>
+                                <strong>Step 5</strong> - Click <strong>Install</strong> button and wait a moment.</li>
+                              <p><img alt="" src="assets/images/install-button.jpg" style="max-width: 80%;"></p>  
+                            
+                            <div class="alert">
+                                <strong>Note:</strong><br>
+                                After installing the <strong>Main</strong> theme, if you want user more child <strong>Child</strong> theme. Then please continue install child-theme the with the same installation above</div> 
+                                <br>
+                            <li>
+                                <strong>Step 6</strong> - After done installing, click <strong>Activate</strong> to publish the theme.</li>
+                              <p><img alt="" src="assets/images/active-theme.jpg" style="max-width: 80%;"></p>
+                            <li>
+                                <strong>Step 7</strong> - After activating the theme a notice should appear on the top of the screen, click on link <strong>Begin installing plugins</strong> ( See screenshots below ).</li>
+                                <p>
+                            The theme requires the following plugin: <strong>Contact Form 7</strong>, <strong>Elementor</strong>, <strong>ThemesFlat</strong>, <strong>Themesflat Addons</strong>,&nbsp;and recommends the following plugins:<strong> One Click Demo Import</strong>,&nbsp;<strong>Slider Revolution</strong> &nbsp;</p>
+                              <p><img alt="" src="assets/images/install-plugin.jpg" style="max-width: 80%;"></p>
+                            <li>
+                                <strong>Step 8</strong> - After install plugins, go to Dashboard > Appearance > Install Plugins, check all the plugins you want to activate <strong>require for this theme</strong></li>
+                                <p><img alt="" src="assets/images/active-plugin.jpg" style="max-width: 80%;"></p>
+                                And active plugins
+                                <p><img alt="" src="assets/images/active-plugin-01.jpg" style="max-width: 80%;"></p>
+
+                        </ol>
+                        <div>
+                          <li>
+                                <strong>Go to Appearance > Import Demo Data</strong>
+                                <p><img alt="" src="assets/images/sample-data-install.jpg" style="max-width: 80%;"></p>  
+                            </li>
+                            <li>
+                                <strong>Go to Continue & Import</strong>
+                                <p><img alt="" src="assets/images/sample-data-install04.jpg" style="max-width: 80%;"></p>
+                                <strong>And Wait</strong>
+                                <p><img alt="" src="assets/images/sample-data-install-01.jpg" style="max-width: 80%;"></p> 
+                            </li>
+        
+                            <h4 id="theme_installation_install_through_ftp_upload">Install through FTP upload</h4>
+                        <p>
+                            If you want to install via FTP, here are 3 steps you need to take:</p>
+                        <ul>
+                            <li>
+                                Using FTP client, login to the server where your WordPress website is hosted</li>
+                            <li>
+                                Using FTP client, navigate to the <strong>/wp-content/themes/</strong> directory under your WordPress website&#39;s root directory</li>
+                            <li>
+                                Using FTP client, upload the  <strong>Finatex</strong> directory to <strong>themes</strong> directory on remote servers</li>
+                        </ul>
+                        <p>Once installation is complete, your Finatex theme will be ready to use.</p>
+
+                        </div>
+                    </section>
+
+                    <!-- Customize theme by Themesflat -->
+                    <section id="theme_customize">
+                        <div class="page-header"><strong><h3>Theme Customize</h3></strong></div>
+                        <p>
+                        To start customizing Theme, in the Admin page please go to <strong>Dashboard &gt; Appearance &gt; Customize</strong></p>
+                        <p><img alt="" src="assets/images/customizer.jpg" style="max-width: 80%"></p>
+                        <div class="alert"><strong>Note:</strong><br>Please remember to click <strong>Save &amp; Publish</strong> button after done customizing to save the changes<br>
+                        These are global settings so its effect is site-wide. These settings can be overridden in single post or page</div>
+                        <strong><h4 id="theme_customization_general">General</h4></strong>
+                        <ol>
+                            <li>
+                                Site Information
+                                <ul>
+                                    <p>To <strong>Customize Theme</strong>  you go to: <strong>Dashboarb -> Appearance -> Customize -> Site Identity</strong></p>
+                                    <li>
+                                        <p><strong>Site Title:</strong> You can setup and change your site title</p>
+                                    </li>
+                                    <img alt="" src="assets/images/customizer-02.jpg" style="max-width: 80%">
+                                    <li>
+                                        <p><strong>Tagline:</strong> A few words to describe your site</p>
+                                    </li>
+                                    <li>
+                                        <p><strong>Site Icon:</strong> Site Icons are what you see in browser tabs, bookmark bars, and within the WordPress mobile apps.</p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                Site Display
+                                <ul>
+                                    <p>To <strong>Customize Theme</strong>  you go to: <strong>Dashboarb -> Appearance -> Customize -> General </strong></p>
+                                    <li>
+                                        <p><strong>Enable Smooth Scroll:</strong> Enabled Smooth Scroll or not</p></li>
+                                    <li>
+                                      <p><strong>Enable Preload:</strong> Displayed while loading to another page</p>
+                                    </li>
+                                    <img alt="" src="assets/images/customizer-05.jpg" style="max-width: 80%">
+                                    <li>
+                                        <p><strong>Go To Button:</strong> Enabled Go To Button or not</p>
+                                    </li>
+                                </ul>
+                            </li>
+                        
+                        </ol>
+                    </section>
+
+                    <!-- Customize Header -->
+                    <section id="header_customize">
+                        <h4 id="theme_customization_header">Header</h4>
+                        <p>
+                        To setup Header layout, please navigate to <strong>Dashboard &gt; Appearance &gt; Customize &gt; Header.</strong></p>
+                        <ol>
+                              <li>Custom Logo
+                                <ul>
+                                        <img alt="" src="assets/images/custom-logo.jpg" style="max-width: 80%"><br>  
+                                    <li>
+                                        <p><strong>Upload Your Logo:</strong> Drag or select your new logo on website here</p>
+                                    </li>
+                                    <li>
+                                        <p><strong>Upload Your Logo On Mobile:</strong> Drag or select your new logo on mobile here</p>
+                                    </li>
+                                    <li>
+                                        <p><strong>Logo Size: </strong>Choose the size for the Logo</p>
+                                    </li>
+                                    <li>
+                                        <p><strong>Box Controls: </strong>Adjust padding and margin for logo</p>
+                                    </li>
+                                </ul>
+                              </li>
+
+
+
+                              <li>Topbar
+                                <ul>
+                                        <img alt="" src="assets/images/customizer-85.jpg" style="max-width: 80%"><br>  
+                                </ul>
+                              </li>
+
+
+
+
+                              <li>Custom Menu
+                                <ul>
+                                        <img alt="" src="assets/images/customizer-59.jpg" style="max-width: 80%"><br>  
+                                </ul>
+                              </li>
+                              <li>Header Options
+                                <ul>
+                                        <img alt="" src="assets/images/customizer-70.jpg" style="max-width: 80%"><br>  
+                                    <li>
+                                        <p><strong>Header Style:</strong> Choose the type of header you want to display by default on your website</p>
+                                    </li>
+                                    <li>
+                                        <p><strong>Header Sticky:</strong> Enabled Header Sticky or not</p>
+                                    </li>
+                                    <li>
+                                        <p><strong>Search Box:</strong> Enabled Search Box or not</p>
+                                    </li>
+                                    <li>
+                                        <p><strong>Sidebar Toggler:</strong> Enabled Sidebar Toggler or not</p>
+                                    </li>
+                                   
+                                </ul>
+                              </li>
+                              <!-- <li>Button
+                                <ul>
+                                        <p> you can edit the content and link of the button on the header</p>
+                                        <img alt="" src="assets/images/customizer-72.jpg" style="max-width: 80%"><br>  
+                                </ul>
+                              </li> -->
+                              <li>Custom Menu
+                                <ul>
+                                  <p>
+                        To setup Custom Menu layout, please navigate to <strong>Dashboard &gt; Appearance &gt; Customize &gt; Menus</strong></p>
+                                    <li>
+                                        <p>Select 1 menu to edit or create new</p>
+                                    </li>
+                                        <img alt="" src="assets/images/customizer-07.jpg" style="max-width: 80%"><br>
+                                    <li>
+                                        <p>Drag and drop to change the menu here</p>
+                                    </li>
+                                    <img alt="" src="assets/images/customizer-74.jpg" style="max-width: 80%"><br>
+                                </ul>
+                              </li>  
+                        </ol>
+                    </section>
+
+                    <!-- Customize Page Title -->
+                    <section id="page_title_customize">
+                        <li>
+                            <h5>Page Title & Breadcrumb</h5>
+                            <ol>
+                              <li>Page Title Style
+                              <p>To setup Custom Page Title Style layout, please navigate to <strong>Dashboard &gt; Appearance &gt; Customize &gt; Page Title &gt; Page Title</strong></p>
+                                <ul>
+                                        <img alt="" src="assets/images/page-title.jpg" style="max-width: 80%"><br>
+                                        <li>
+                                        <p>Edit the Page Title Controls here:</p>
+                                    </li>
+                                        <img alt="" src="assets/images/page-title-1.jpg" style="max-width: 80%"><br> 
+                                </ul>
+                              </li>
+                              <li>Breadcrumb
+                                <ul>
+                                  <li>
+                                        <p><strong>Enable Breadcrumbs:</strong> Turn on/off to show/hide the breadcrumbs</p>
+                                    </li>
+                                        <img alt="" src="assets/images/breadcum.jpg" style="max-width: 80%"><br>
+                                    <li>
+                                        <p><strong>Breadcrumb Prefix:</strong> Enter prefix text for the breadcrumb</p>
+                                    </li>
+                                    <li>
+                                        <p><strong>Breadcrumb Separator:</strong> Enter the character you want to use as the separator of breadcrumb</p>
+                                    </li>
+                                </ul>
+                              </li>
+                            </ol>
+                        </li>
+                    </section>
+
+                    <!-- Customize Typography -->
+                    <section id="typography_customizer">
+                        <h4 id="theme_customization_typography">Typography</h4>
+                        <li>
+                          <p>To setup Custom Page Title Style layout, please navigate to <strong>Dashboard &gt; Appearance &gt; Customize &gt; Typography</strong></p>
+                            <ol>
+                              <li>Body Font: You can select Font family, Font size Font weight or Font color for the body text
+                                <ul>
+                                        <img alt="" src="assets/images/customizer-11.jpg" style="max-width: 80%"><br>
+                                        <p>Blockquote Typography</p>
+                                        <img alt="" src="assets/images/customizer-67.jpg" style="max-width: 80%"><br>
+                                </ul>
+                              </li>
+                              <li>Topbar Font: You can select Font family, Font size Font weight or Font color for the topbar text
+                                <ul>
+                                        <img alt="" src="assets/images/customizer-68.jpg" style="max-width: 80%"><br>
+                                </ul>
+                              </li>
+                              
+                              <li>Menu Font: You can select Font family, Font size Font weight or Font color for the menu text, submenu text
+                                <ul>
+                                        <img alt="" src="assets/images/menu-fonts.jpg" style="max-width: 80%"><br>
+                                        SubMenu <br>
+                                        <img alt="" src="assets/images/submenu-fonts.jpg" style="max-width: 80%"><br>
+                                </ul>
+                              </li>
+                              <li>Heading Font
+                                <ul>
+                                        <img alt="" src="assets/images/headings-font.jpg" style="max-width: 80%"><br>
+                                        <p>And you can edit a lot here<p>
+                                          <img alt="" src="assets/images/customizer-69.jpg" style="max-width: 80%"><br>
+                                </ul>
+                              </li>
+                            </ol>
+                        </li>
+                    </section>
+
+                    <!-- Customize layout_amp_styles -->
+                    <section id="layout_amp_styles">
+                        <h3 id="theme_customization_layout_amp_styles">Layout &amp; Styles</h3>
+                        <p>In the section Layout &amp; Styles, we provide some options to customize the theme layout and styles.</p>       
+                        <ol>
+                            <li>   
+                            <ul>
+                                <h5>Scheme Color</h5>
+                                <p>To setup Custom Page Title Style layout, please navigate to <strong>Dashboard &gt; Appearance &gt; Customize &gt; Color</strong></p>
+                                <img class="img-doc" alt="" src="assets/images/customizer-15.jpg" style="max-width: 80%">
+                                <p>With this option, you can change unlimited color for your General: Primary Color, Secondary Color, Accent Color, Background Color, please navigate to <strong>Dashboard &gt; Appearance &gt; Customize &gt; Color &gt; General</strong></p>
+                                <img class="img-doc" alt="" src="assets/images/general-color.jpg" style="max-width: 80%">
+                                <p>With this option, you can change unlimited color for your Topbar, please navigate to <strong>Dashboard &gt; Appearance &gt; Customize &gt; Color &gt; Topbar</strong></p>
+                                <img class="img-doc" alt="" src="assets/images/customizer-71.jpg" style="max-width: 80%">
+                                <p>With this option, you can change unlimited color for your Header, please navigate to <strong>Dashboard &gt; Appearance &gt; Customize &gt; Color &gt; Header</strong></p>
+                                <img class="img-doc" alt="" src="assets/images/header-color.jpg" style="max-width: 80%">
+                                <p>With this option, you can change unlimited color for your Footer, please navigate to <strong>Dashboard &gt; Appearance &gt; Customize &gt; Color &gt; Footer</strong></p>
+                                <img class="img-doc" alt="" src="assets/images/footer-color.jpg" style="max-width: 80%">
+                                <img class="img-doc" alt="" src="assets/images/bottom-color.jpg" style="max-width: 80%">
+                                 <p>To start customizing Background Image, in the Admin page please go to <strong>Dashboard &gt; Appearance &gt;  Customize  &gt; Background Image </strong></p>
+                                <img class="img-doc" alt="" src="assets/images/layout-style.jpg" style="max-width: 80%">
+                                <p>To start customizing Widgets, in the Admin page please go to <strong>Dashboard &gt; Appearance &gt;  Customize  &gt; Widgets </strong></p>
+                                <img class="img-doc" alt="" src="assets/images/widgets.jpg" style="max-width: 80%">
+                            </ul>
+                            </li>
+                            
+                        </ol>
+                    </section>
+
+                    <!-- Customize Footer -->
+                    <section id="footer_customize">
+                        <h4 id="theme_customization_footer">Footer</h4>
+                        <ol>
+                            <li>   
+                            <ul>
+                              <p>To edit the default footer, in the Admin page please go to <strong>Dashboard &gt; Appearance &gt; Customize &gt; Footer </strong></p>
+                                <!-- <h5>Action box</h5> -->
+                                <p>You can edit the contents of the Footer here</strong></p>
+                                <img class="img-doc" alt="" src="assets/images/customizer-76.jpg" style="max-width: 80%">
+                            </ul>
+                            </li>
+                            <li>   
+                            <ul>
+                                <h5>Columns Footer</h5>
+                                <p>You can edit the contents of the Columns Footer here</strong></p>
+                                <img class="img-doc" alt="" src="assets/images/customizer-78.jpg" style="max-width: 80%">
+                                <p>Go to Dashboard -> Appearance -> Widgets</strong></p>
+                                <img class="img-doc" alt="" src="assets/images/footer_01.jpg" style="max-width: 80%">
+                            </ul>
+                            </li>
+                            <li>   
+                            <ul>
+                                <h5>Bottom</h5>
+                                <p>You can edit the contents of the Bottom here</strong></p>
+                                <img class="img-doc" alt="" src="assets/images/customizer-79.jpg" style="max-width: 80%">
+                            </ul>
+                            </li>
+                            <li>   
+                            <ul>
+                                <h5>Action Box</h5>
+                                <p>You can edit the contents of the Bottom here</strong></p>
+                                <img class="img-doc" alt="" src="assets/images/customizer-17.jpg" style="max-width: 80%">
+                            </ul>
+                            </li>
+                        
+                        </ol>
+                            <p><strong>Now, you&#39;ve finished the setup for your blog post.</strong></p>
+
+                    </section>
+
+                    <!-- Customize Blog Post -->
+                    <section id="blog_customizer">
+                        <h3 id="theme_customize_blog">Post Type</h3> 
+                        <p>To <strong>Customize Post</strong>  you go to: <strong>Dashboarb -> Appearance -> Customize -> Content </strong></p>
+
+                        <p>
+                        <ol>
+                            <li>
+                                <h5>Blog archive</h5>
+                                <img class="img-doc" alt="" src="assets/images/customizer-13.jpg" style="max-width: 80%">
+                                <ul>
+                                    <li><strong>Sidebar Position:</strong> Select sidebar position on the posts page (No Sidebar/Left/Right)</li>
+                                    <li><strong>Blog Layout:</strong> Select layout style for List (List/Grid)</li>
+                                    <li><strong>Post Grid Columns:</strong> Choose to display the number of columns of the article</li>
+                                    <li><strong>List Sidebar:</strong> In the dropdown box, select the sidebar you want to display on posts page</li>
+                                    <li><strong>Post Content Elements:</strong> Drag and drop elements to re-order.</li>
+                                    <li><strong>Post Excepts Length:</strong> This option is only available when you turn on "Auto Post Excepts". It uses to limit the content length which is shown on posts page</li>
+                                    <li><strong>Social Share:</strong> Enable or disable Social Share</li>
+                                    <li><strong>Readmore Text:</strong> You can modify the text of Read more button here</li>
+                                    <li><strong>Meta Elements:</strong>Drag and drop elements to re-order.</li>
+                                </ul>
+                            </li>
+                            <li> 
+                                <h5>Blog Single</h5>
+                                <img class="img-doc" alt="" src="assets/images/customizer-14.jpg" style="max-width: 80%"><p></p>
+                                <ul>
+                                    <li><strong>Post Navigator:</strong> Enabled Post Navigator or not</li>
+                                    <li><strong>Related Posts:</strong> Enabled Related Posts or not</li>
+                                    <li><strong>Related Posts Style:</strong> Choose Related Posts Style (Blog List or Blog Grid)</li>
+                                    <li><strong>Columns Of Related Posts:</strong> Choose 2 Columns, 3 Columns, 4 Columns </li>
+                                    <li><strong>Number Of Related Posts:</strong> Number Of Related Posts </li>
+                                </ul>
+                            </li>
+                            <li> 
+                                <h5>Project Archive</h5>
+                                <img class="img-doc" alt="" src="assets/images/customizer-18.jpg" style="max-width: 80%"><p></p>
+                                <ul>
+                                    <li><strong>Portfolio Slug:</strong> You can modify the Portfolio Slug here</li>
+                                    <li><strong>Portfolio Name:</strong> You can modify the Portfolio Name here</li>
+                                    <li><strong>Sidebar Position:</strong> Choose Sidebar Style </li>
+                                    <li><strong>List Sidebar:</strong> Choose Sidebar Style </li>
+                                    <li><strong>Columns Of Related Posts:</strong> Choose 2 Columns, 3 Columns, 4 Columns </li>
+                                    <li><strong>Number Of Related Posts:</strong> Number Of Related Posts </li>
+                                    ....
+                                </ul>                                
+                            </li>
+                            <li> 
+                                <h5>Project Single</h5>
+                                <img class="img-doc" alt="" src="assets/images/customizer-19.jpg" style="max-width: 80%"><p></p>
+                                <ul>
+                                    <li><strong>Customize Portfolio Featured Title:</strong> You can modify the Title here</li>
+                                    <li><strong>Post Navigator:</strong> Enabled Post Navigator or not</li>
+                                    <li><strong>Related Posts:</strong> Enabled Related Posts or not</li>                                    
+                                    <li><strong>Columns Of Related Posts:</strong> Choose 2 Columns, 3 Columns, 4 Columns </li>
+                                    <li><strong>Number Of Related Posts:</strong> Number Of Related Posts </li>
+                                </ul>
+                            </li>
+                            <li> 
+                                <h5>Services Archive</h5>
+                                <img class="img-doc" alt="" src="assets/images/customizer-20.jpg" style="max-width: 80%"><p></p>
+                                <ul>
+                                    <li><strong>Services Slug:</strong> You can modify the Services Slug here</li>
+                                    <li><strong>Services Name:</strong> You can modify the Services Name here</li>
+                                    <li><strong>Sidebar Position:</strong> Choose Sidebar Style </li>
+                                    <li><strong>List Sidebar:</strong> Choose Sidebar Style </li>
+                                    <li><strong>Columns Of Related Posts:</strong> Choose 2 Columns, 3 Columns, 4 Columns </li>
+                                    <li><strong>Number Of Related Posts:</strong> Number Of Related Posts </li>
+                                    ....
+                                </ul>
+                            </li>
+                            <li> 
+                                <h5>Services Single</h5>
+                                <img class="img-doc" alt="" src="assets/images/customizer-21.jpg" style="max-width: 80%"><p></p>
+                                <ul>
+                                    <li><strong>Customize Services Featured Title:</strong> You can modify the Title here</li>
+                                    <li><strong>Post Navigator:</strong> Enabled Post Navigator or not</li>
+                                    <li><strong>Related Posts:</strong> Enabled Related Posts or not</li>                                    
+                                    <li><strong>Columns Of Related Posts:</strong> Choose 2 Columns, 3 Columns, 4 Columns </li>
+                                    <li><strong>Number Of Related Posts:</strong> Number Of Related Posts </li>
+                                </ul>
+                            </li>
+                            <!-- <li> 
+                                <h5>Team Archive</h5>
+                                <img class="img-doc" alt="" src="assets/images/customizer-22.jpg" style="max-width: 80%"><p></p>
+                                <ul>
+                                    <li><strong>Team Slug:</strong> You can modify the Team Slug here</li>
+                                    <li><strong>Team Name:</strong> You can modify the Team Name here</li>
+                                    <li><strong>Show Number Posts:</strong> Number Of Related Posts </li>
+                                    <li><strong>Grid Columns:</strong> Choose 2 Columns, 3 Columns, 4 Columns</li>
+                                    ....                                                          
+                                </ul>
+                            </li> -->
+                            <!-- <li> 
+                                <h5>Team Single</h5>
+                                <img class="img-doc" alt="" src="assets/images/customizer-23.jpg" style="max-width: 80%"><p></p>                                
+                            </li> -->
+                        </ol>
+                    </section>
+
+                    <!-- Customize Portfolio -->
+                    <section id="portfolio">    
+                        <h3 id="theme_customization_portfolio">Creat Post Type</h3>
+                        <ol>
+                            <li>
+                                <h5>Services</h5>
+                            </li>
+                            <p>
+                                To <strong> create a Services list</strong>  you go to: <strong>Dashboarb -> Services, then select the Product to edit and click Edit or click New Services to create a new Services </strong>
+                            </p>
+                                <img class="img-doc" alt="" src="assets/images/services.jpg" style="max-width: 80%"> 
+                            <p>
+                                <strong>Change icon of services</strong>  you go to: <strong>Dashboarb -> Services -> Edit with Elementor </strong>
+                            </p>     
+                                <img class="img-doc" alt="" src="assets/images/services_01.jpg" style="max-width: 80%"> 
+                            <p>
+                                you go to: <strong>Settings -> TF Services -> Choice icon </strong>
+                            </p>                      
+                                <img class="img-doc" alt="" src="assets/images/services_02.jpg" style="max-width: 80%"> 
+                            <li>
+                                <h5>Project</h5>
+                            </li>
+                            <p>
+                                To <strong> create a Project list</strong>  you go to: <strong>Dashboarb -> Project, then select the Product to edit and click Edit or click New Project to create a new Project </strong>
+                            </p>
+                                <img class="img-doc" alt="" src="assets/images/portfolios.jpg" style="max-width: 80%">
+                            <p>
+                                <strong>Change icon of Project</strong>  you go to: <strong>Dashboarb -> Project -> Edit with Elementor </strong> same with TF Services
+                            </p> 
+                            <!-- <li> -->
+                                <!-- <h5>Team</h5>
+                            </li>
+                            <p>
+                                To <strong>To create a Team list</strong>  you go to: <strong>Dashboarb -> Team, then select the Product to edit and click Edit or click New Team to create a new Team </strong>
+                            </p>
+                                <img class="img-doc" alt="" src="assets/images/team.jpg" style="max-width: 80%"> -->
+                        </ol>                        
+                    </section>
+
+                    <!-- Customize Widget -->
+                    <section id="themesflat-addons">    
+                        <h3 id="theme_customization_themesflat-addons">Themesflat Addons</h3>
+                        <p>
+                        <strong>NOTE: to use all widgets of Themesflat addons, You select the page to edit or create a new page <strong>Edit with Elementor -> Elementor -> Themesflat Addons</strong><br><br>
+                                <img class="img-doc" alt="" src="assets/images/customizer-24.jpg" style="max-width: 80%">
+                        <ol>    
+                            <li>
+                                <h5>TF Title Section </h5>
+                                <p>You build it at Themesflat Addons</p>
+                                <img class="img-doc" alt="" src="assets/images/customizer-30.jpg" style="max-width: 80%">
+                                <p>You can customize at Content and Advanced</p>
+                                <p><img class="img-doc" alt="" src="assets/images/customizer-31.jpg" style="max-width: 80%"></p>
+                            </li>
+                            <li>
+                                <h5>TF Services</h5>
+                                <p>You build it at Themesflat Addons, it helps you to create a simple Team</p>
+                                <img class="img-doc" alt="" src="assets/images/customizer-25.jpg" style="max-width: 80%">
+                                <p>You can customize at Content and Advanced</p>
+                                <p><img class="img-doc" alt="" src="assets/images/customizer-26.jpg" style="max-width: 80%"></p>
+                            </li>
+                            <li>
+                                <h5>TF Icon Box</h5>
+                                <p>You build it at Themesflat Addons</p>
+                                <img class="img-doc" alt="" src="assets/images/customizer-27.jpg" style="max-width: 80%">
+                                <p>You can customize at Content and Advanced</p>
+                                <p><img class="img-doc" alt="" src="assets/images/customizer-28.jpg" style="max-width: 80%"></p>
+                            </li>
+                            <li>
+                                <h5>TF Project </h5>
+                                <img class="img-doc" alt="" src="assets/images/customizer-29.jpg" style="max-width: 80%">
+                                <p>You can customize at Content and Advanced</p>
+                                <p><img class="img-doc" alt="" src="assets/images/customizer-32.jpg" style="max-width: 80%"></p>
+                            </li>
+                            <li>
+                                <h5>TF Team Carousel</h5>
+                                <img class="img-doc" alt="" src="assets/images/customizer-33.jpg" style="max-width: 80%">
+                                <p>You can customize at Content and Advanced</p>
+                                <p><img class="img-doc" alt="" src="assets/images/customizer-34.jpg" style="max-width: 80%"></p>
+                            </li>
+                            <li>
+                                <h5>TF Testimonial Carousel</h5>
+                                <img class="img-doc" alt="" src="assets/images/customizer-35.jpg" style="max-width: 80%">
+                                <p>You can customize at Content and Advanced</p>
+                                <p><img class="img-doc" alt="" src="assets/images/customizer-36.jpg" style="max-width: 80%"></p>
+                            </li>
+                            <li>
+                                <h5>TF Post</h5>
+                                <img class="img-doc" alt="" src="assets/images/customizer-37.jpg" style="max-width: 80%">
+                                <p>You can customize at Content and Advanced</p>
+                                <p><img class="img-doc" alt="" src="assets/images/customizer-38.jpg" style="max-width: 80%"></p>
+                            </li>                 
+                            
+                                <p>There are many more widgets for you to choose, Everything is so simple when you just need drag and drop. Wish you have a great website!</p>
+                    </section>
+                
+                    <div class="footer-area">
+                        <div class="col-lg-12 center">
+                            We are <a href="https://themeforest.net/user/themesflat/portfolio" target="_blank">Themesflat </a> and we create premium, WordPress, Template Kits Addons for Elementor. <br> If you have any question please contact via email helpdeskthemesflat@gmail.com skypeid: helpdeskthemesflat</a><br>
+                        </div>
+                    </div>
+               </div>
+            </body>
+         </html>
